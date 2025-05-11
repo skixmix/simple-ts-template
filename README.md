@@ -2,6 +2,22 @@
 
 This is a simple Node.js template using TypeScript, Jest, Prettier, and Husky. It provides a solid foundation for building applications with automated testing, code formatting, and Git hooks.
 
+## Structure
+
+```
+simple-ts-template/
+├── src/                 # Source files
+├── .husky/              # Husky git hooks
+├── test-results/        # Test reports (e.g., HTML output from test runs)
+├── dist/                # Compiled build output
+├── .prettierrc          # Prettier configuration
+├── .nvmrc               # Node.js version for NVM
+├── package.json         # Project metadata and scripts
+├── tsconfig.json        # Main TypeScript configuration
+├── tsconfig.test.json   # TypeScript config specifically for tests
+└── jest.config.ts       # Jest configuration
+```
+
 ## Features
 
 - **Node.js** with TypeScript
@@ -81,32 +97,6 @@ You can run the tests using the following commands:
   ```
 
 > Note: test reports and coverage reports will be saved in the `test-results` folder.
-
-## Project Structure
-
-```
-simple-ts-template/
-├── src/                 # Source files
-├── .husky/              # Husky git hooks
-├── test-results/        # Test reports (e.g., HTML output from test runs)
-├── dist/                # Compiled build output
-├── .prettierrc          # Prettier configuration
-├── .nvmrc               # Node.js version for NVM
-├── package.json         # Project metadata and scripts
-├── tsconfig.json        # Main TypeScript configuration
-├── tsconfig.test.json   # TypeScript config specifically for tests
-└── jest.config.ts       # Jest configuration
-```
-
-## Additional Setup
-
-If you are new to the technologies used in this project, here are some useful links for further learning:
-
-- [Node.js](https://nodejs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Jest](https://jestjs.io/)
-- [Prettier](https://prettier.io/)
-- [Husky](https://typicode.github.io/husky/#/)
 
 ## License
 
